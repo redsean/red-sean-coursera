@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: red-sean-coursera
+  host: red-sean-coursera
+  disk_quota: 1024M
+  services:
+  - red-sean-coursera-cloudantNoSQLDB
+  - red-sean-coursera-iotf-service
